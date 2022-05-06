@@ -1,5 +1,5 @@
 window.onload = function() {
-    document.querySelectorAll('.storylink').forEach(element => {
+    document.querySelectorAll('.titlelink').forEach(element => {
         element.setAttribute('target', '_blank')
     })
 }

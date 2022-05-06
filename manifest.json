@@ -1,6 +1,6 @@
 {
     "name": "HackerNews New Tab",
-    "version": "1.0",
+    "version": "1.1",
     "description": "HackerNews New Tab is a chrome extension that allow user to open hacker news links in new tab",
     "permissions": ["activeTab","declarativeContent","storage"],
     "content_scripts": [
@@ -12,5 +12,5 @@
             "run_at": "document_end"
         }
     ],
-    "manifest_version": 2
+    "manifest_version": 3
 }
