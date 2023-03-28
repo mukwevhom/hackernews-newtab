@@ -1,5 +1,5 @@
 window.onload = function() {
-    document.querySelectorAll('.titlelink').forEach(element => {
+    document.querySelectorAll('.titleline a').forEach(element => {
         element.setAttribute('target', '_blank')
     })
 }
